@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,9 +26,24 @@
                   <li class="header__nav-item"><a class="header__nav-link" href="#">Вакансии</a></li>
                   <li class="header__nav-item"><a class="header__nav-link" href="#">Акции</a></li>
                   <li class="header__nav-item"><a class="header__nav-link" href="#">Контакты</a></li>
-                  <li class="header__nav-item"><a class="header__nav-link" href="#">Идея       </a></li>
+                  <li class="header__nav-item"><a class="header__nav-link" href="#">Идея</a></li>
                 </ul>
               </nav>
+              <button class="hamburger hamburger--spring menu-fix" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+              <div class="menu">
+                <div class="menu__left"></div>
+                <div class="menu__right"></div>
+                <ul class="menu__items">
+                  <li class="menu__item"><a class="menu__link" href="#">Портфолио</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Заказать</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Вакансии</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Акции</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#">Идея    </a></li>
+                </ul>
+              </div>
               <div class="header__search">
                 <input class="search__field" type="search" placeholder="Поиск...">
                 <button class="search__btn"> </button>
@@ -137,15 +152,27 @@
           <div class="container--column">
             <h2 class="offers__title">Интернет решения</h2>
             <ul class="offers__solutions-list">
-              <li class="offers__solutions-item"><img src="assets/img/icons/info/promo.png" alt="promo"></li>
-              <li class="offers__solutions-item offers__solutions-item--corporate"><img src="assets/img/icons/info/corporate.png" alt="corporate"></li>
-              <li class="offers__solutions-item offers__solutions-item--store"><img src="assets/img/icons/info/store.png" alt="store"></li>
-              <li class="offers__solutions-item"><img src="assets/img/icons/info/portal.png" alt="portal"></li>
+              <li class="offers__solutions-item hovered hovered--promo"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon promo"></div>
+                  <h4 class="offers__solutions-title">Промо-сайт</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </span></a></li>
+              <li class="offers__solutions-item hovered hovered--corporate"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon corporate"></div>
+                  <h4 class="offers__solutions-title">Корпоративный сайт</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span></a></li>
+              <li class="offers__solutions-item hovered hovered--store"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon store"></div>
+                  <h4 class="offers__solutions-title">Интернет-магазин</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span></a></li>
+              <li class="offers__solutions-item hovered hovered--portal"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon portal"></div>
+                  <h4 class="offers__solutions-title">Портал</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span></a></li>
             </ul>
             <h2 class="offers__title">Web интеграция</h2>
             <ul class="offers__integration-list">
-              <li class="offers__integration-item offers__integration-item--account"><img src="assets/img/icons/info/account.png" alt="account"></li>
-              <li class="offers__integration-item offers__integration-item--bitrix"><img src="assets/img/icons/info/bitrix.png" alt="bitrix"></li>
+              <li class="offers__solutions-item hovered hovered--account"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon account"></div>
+                  <h4 class="offers__solutions-title">Личный кабинет</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span></a></li>
+              <li class="offers__solutions-item hovered hovered--bitrix"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon bitrix"></div>
+                  <h4 class="offers__solutions-title">Битрикс 24</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span></a></li>
               <li class="offers__integration-item offers__integration-item--ads">
                 <div class="offers__item-wrap">
                   <h3 class="offers__ads-title">Удвоим продажи за <span>30</span> дней</h3><span class="offers__ads-desc">Рекламируясь в Яндекс.Директ и Google AdWords...</span>
@@ -154,10 +181,18 @@
             </ul>
             <h2 class="offers__title">Прочие услуги  </h2>
             <ul class="offers__misc-list">
-              <li class="offers__misc-item offers__misc-item--tech"><img src="assets/img/icons/info/tech.png" alt="tech support"></li>
-              <li class="offers__misc-item offers__misc-item--design"><img src="assets/img/icons/info/design.png" alt="design"></li>
-              <li class="offers__misc-item offers__misc-item--logo"><img src="assets/img/icons/info/logo.png" alt="logo"></li>
-              <li class="offers__misc-item offers__misc-item--seo"><img src="assets/img/icons/info/seo.png" alt="seo"></li>
+              <li class="offers__solutions-item hovered hovered--tech"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon support"></div>
+                  <h4 class="offers__solutions-title">Техническая поддержка</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </span></a></li>
+              <li class="offers__solutions-item hovered hovered--design"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon design"></div>
+                  <h4 class="offers__solutions-title">Дизайн</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span></a></li>
+              <li class="offers__solutions-item hovered hovered--store"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon store"></div>
+                  <h4 class="offers__solutions-title">Логотип</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span></a></li>
+              <li class="offers__solutions-item hovered hovered--seo"><a class="offers__link" href="#">
+                  <div class="offers__solutions-icon seo"></div>
+                  <h4 class="offers__solutions-title">SEO продвижение</h4><span class="offers__solutions-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  </span></a></li>
             </ul>
           </div>
         </section>
@@ -188,18 +223,20 @@
               <button class="articles__follow-btn btn">Оформить рассылку      </button>
             </div>
             <div class="articles__right">
+              <div class="articles__controls">
+                <div class="articles__controls-left"></div>
+                <div class="articles__controls-right"></div>
+              </div>
               <h3 class="articles__title">Выгодное предложение</h3>
               <ul class="articles__offers">
-                <li class="articles__offers-item articles__offers--ads">
-                  <div class="offers__item-wrap offers__item-wrap--articles">
-                    <h3 class="offers__ads-title">Удвоим продажи за <span>30</span> дней</h3><span class="offers__ads-desc">Рекламируясь в Яндекс.Директ и Google AdWords...</span>
-                  </div>
-                </li>
-                <li class="articles__offers-item articles__offers--ads">
-                  <div class="offers__item-wrap offers__item-wrap--articles">
-                    <h3 class="offers__ads-title">Удвоим продажи за <span>30</span> дней</h3><span class="offers__ads-desc">Рекламируясь в Яндекс.Директ и Google AdWords...    </span>
-                  </div>
-                </li>
+                <li class="articles__offers-item articles__offers--ads"><a class="articles__offers-link" href="#">
+                    <div class="offers__item-wrap offers__item-wrap--articles">
+                      <h3 class="offers__ads-title">Удвоим продажи за <span>30</span> дней</h3><span class="offers__ads-desc">Рекламируясь в Яндекс.Директ и Google AdWords...</span>
+                    </div></a></li>
+                <li class="articles__offers-item articles__offers--ads"><a class="articles__offers-link" href="#">
+                    <div class="offers__item-wrap offers__item-wrap--articles">
+                      <h3 class="offers__ads-title">Удвоим продажи за <span>30</span> дней</h3><span class="offers__ads-desc">Рекламируясь в Яндекс.Директ и Google AdWords...   </span>
+                    </div></a></li>
               </ul>
             </div>
           </div>
@@ -213,13 +250,26 @@
               <li class="portfolio__tabs-item"><a class="portfolio__tabs-link" href="#1">2016</a></li>
             </ul>
             <div class="portfolio__works">
-              <div class="portfolio__works-top">
-                <div class="portfolio__works-left"><a class="portfolio__works-link portfolio__works-link--climate" href="#"></a>
-                  <div class="portfolio__works-wrap"><a class="portfolio__works-link portfolio__works-link--work" href="#"></a><a class="portfolio__works-link portfolio__works-link--work" href="#"></a></div>
-                </div>
-                <div class="portfolio__works-right"><a class="portfolio__works-link portfolio__works-link--window" href="#"></a></div>
-              </div>
-              <div class="portfolio__works-bottom"><a class="portfolio__works-link portfolio__works-link--work" href="#"></a><a class="portfolio__works-link portfolio__works-link--work" href="#"></a></div>
+              <ul class="portfolio__works-list">
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва</span></a></li>
+                <li class="portfolio__works-item"><a class="portfolio__works-link" href="#"><img src="assets/img/pics/portfolio/gaz.jpg" alt="">
+                    <h4 class="portfolio__works-title">Сайт компании "Газэнергострой"</h4><span class="portfolio__works-date">2017/02</span><span class="portfolio__works-city">г.Москва                   </span></a></li>
+              </ul>
             </div>
             <button class="portfolio__btn btn">Больше работ</button>
           </div>
